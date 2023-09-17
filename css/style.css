@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+:root {
+    --pink: #F53855;
+    --white: #FFFFFF;
+    --bigtext: #0B132A;
+    --smalltext: #4F5665;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background: #FFF;
+    font-family: 'Rubik', sans-serif;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  
+  /* navbar section */
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 9rem;
+  }
+  .top img {
+    height: 36px;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  ul li a{
+    text-decoration: none;
+    color: var(--smalltext);
+    margin-right: 1rem;
+    font-size: 16px;
+  }
+  .top .sign a {
+    color: var(--bigtext);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  .top .sign button {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid var(--pink);
+    flex-shrink: 0;
+    color: var(--pink);
+    font-weight: 500;
+    background: #FFF;
+    cursor: pointer;
+  }
+  .top .sign button:hover{
+    color: #FFF;
+    background: var(--pink);
+  }
+
+  /* hero section */
+  .hero_section {
+    margin: 5rem 9rem;
+  }
+  .hero_section .flex {
+    display: flex;
+  }
+  .flex .description h2 {
+    width: 555px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+  }
+  .flex .description h2 span {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  .flex .description p {
+    width: 555px;
+    color: #4F5665;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .flex .description button {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F53838;
+    flex-shrink: 0;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(246, 2, 2, 0.5);
+  }
+  .flex .description button:hover {
+    box-shadow: 0px 4px 6px rgba(246, 2, 2, 0.8);
+  }
