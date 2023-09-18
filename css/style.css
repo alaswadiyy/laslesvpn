@@ -80,8 +80,9 @@
   .hero_section {
     margin: 5rem 9rem;
   }
-  .hero_section .flex {
+  .flex {
     display: flex;
+    justify-content: space-between;
   }
   .flex .description h2 {
     width: 555px;
@@ -124,4 +125,80 @@
   }
   .flex .description button:hover {
     box-shadow: 0px 4px 6px rgba(246, 2, 2, 0.8);
+  }
+  .data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    height: 200px;
+    width: 90%;
+    border-radius: 10px;
+    background: #FFF;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  .data .contain {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 auto;
+  }
+  .data .vertical-line {
+    border: 2px solid #EEEFF2;
+    height: 125px;
+  }
+  .data .contain .icons {
+    width: 55px;
+    height: 55px;
+    border-radius: 70px;
+    background: #FFECEC;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* features section */
+  .features_section {
+    margin: 5rem 9rem;
+  }
+  .feature {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+  }
+  .flex div h2 {
+    width: 383.406px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 1.5rem;
+  }
+  .flex div p {
+    width: 427.879px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .feature p {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .feature img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .subscription{
+    background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%);
   }
