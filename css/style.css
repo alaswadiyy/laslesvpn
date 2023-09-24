@@ -204,6 +204,9 @@
   /* subscription section */
   .subscriptions{
     background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%);
+   
+  }
+  .subscriptions .container {
     margin: 5rem 9rem;
   }
   .subscriptions h2 {
@@ -218,7 +221,7 @@
     line-height: 50px;
     text-align: center;
   }
-  .subscriptions p {
+  .subscriptions .choose {
     width: 555px;
     margin: auto;
     padding: 0 0 1.5rem 0;
@@ -232,4 +235,28 @@
   }
   .subscriptions .flex{
     display: flex;
+  }
+  .subscriptions .container .plans {
+    width: 330px;
+    height: 760px;
+    padding: 1rem 0;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    flex-shrink: 0;
+  }
+  .subscriptions .container .plans .sub {
+    width: 144.904px;
+    height: 165.374px;
+    margin: 1rem auto;
+  }
+  .plans div .flex {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 180.17px;
+    height: 30px;
+    top: 2111.55px;
+    left: 244.96px;
   }
