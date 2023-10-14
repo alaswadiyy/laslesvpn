@@ -260,3 +260,44 @@
     top: 2111.55px;
     left: 244.96px;
   }
+
+  /* Globe Section */
+  .globe {
+    background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%);
+  }
+  .globe .globe_content{
+    margin: 5rem 9rem;
+  }
+  .globe .globe_content h2 {
+    width: 383.406px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0 auto;
+  }
+  .globe .globe_content p {
+    width: 555px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .globe .globe_content .sponsors {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+  .globe .globe_content .sponsors img {
+    width: 190px;
+    height: 60px;
+    flex-shrink: 0;
+  }
