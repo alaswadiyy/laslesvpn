@@ -301,3 +301,30 @@
     height: 60px;
     flex-shrink: 0;
   }
+
+  /* testimonial section */
+  .testimonials {
+    margin: 5rem 9rem;
+  }
+  .testimonials h2 {
+    width: 447.805px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .testimonials p {
+    width: 555px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
